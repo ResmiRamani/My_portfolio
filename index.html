@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This website is completely responsive no matter what size screen you view this website on., initial-scale=1.0"
+    />
+    <link rel="icon" href="img/favicon.ico" />
+    <title>
+      Portfolio Website - A Responsive Portfolio Website:JavaScript and HTML
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="css/superslides.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+      integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="loader">
+      <div class="inner"></div>
+    </div>
+    <div id="slides">
+      <div class="overlay"></div>
+      <div class="slides-container">
+        <img src="img/slide1.jpg" alt="" />
+        <img src="img/slide2.jpeg" alt="" />
+        <img src="img/slide3.jpg" alt="" />
+      </div>
+      <div class="titleMessage">
+        <div class="heading">
+          <p class="main">Resmi</p>
+          <p class="sub typed"></p>
+        </div>
+      </div>
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a>
+        <a href="#" class="prev"></a>
+      </nav>
+    </div>
+
+    <nav id="navigation" class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">Resmi</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about"
+              >About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stats">Stats</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="aboutImage" src="img/about.jpg" />
+          </div>
+          <div class="col-md-7">
+            <h4>My name is Resmi</h4>
+            <p>
+              Hi There!I'm Resmi From Kitchener,Canada. I am a recent graduate
+              of the Applications Developer (Mobile Specialist) Diploma Program
+              at the Kitchener triOS Campus where I achieved an overall average
+              of 98% and maintained perfect attendance throughout my program and
+              internship. In addition to my triOS Diploma, I also have a
+              Master’s Degree in Computer Applications, a Bachelor’s Degree in
+              Chemistry, and have extensive experience teaching computer science
+              and applications, as well as hands-on experience as a Java
+              Software Engineer and Test Engineer, where I achieved a 0% audit
+              failure and had zero production defects.
+            </p>
+            <p>
+              I have experience programming in many different languages such as
+              C, C++, Android,Java,Javascript and Objective-C, however my
+              favourite project involve working in Swift for iOS.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="skillsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICAL SKILSS</h2>
+            <p>A representation of my proficiency in each skill</p>
+          </div>
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="80">
+                <span class="percent">80</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>HTML 5</h4>
+              <p>Used in most of my web based project</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="70">
+                <span class="percent">70</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>CSS</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="65">
+                <span class="percent">65</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Javascript</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="55">
+                <span class="percent">55</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>MySQL</h4>
+              <p>Used in most of my web based projects</p>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="55">
+                <span class="percent">55</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Java</h4>
+              <p>Used for my web based projects</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="52">
+                <span class="percent">52</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Swift</h4>
+              <p>Used for my IOS Applications</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="64">
+                <span class="percent">64</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>C++</h4>
+              <p>A new skill I am learned</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="50">
+                <span class="percent">50</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>PHP</h4>
+              <p>A new skill I am learning</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="stats" class="statsSection section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-clock"></i>
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">4</h2>
+                  <h3>Experience</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-bolt"></i>
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">5</h2>
+                  <h3>ios Apps</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-cloud"></i>
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">10</h2>
+                  <h3>Websites Made</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="squareItem">
+              <div class="squareInnerContainer">
+                <div class="squareIcon">
+                  <i class="fa fa-calendar"></i>
+                </div>
+                <div class="squareContent">
+                  <h2 class="counter">5</h2>
+                  <h3>Android Apps</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="contactSection section">
+      <div class="col-md-12 text-center">
+        <p class="subHeading">Like What you see?</p>
+        <h2>I'd love to here from you!</h2>
+        <a href="mailTo:resmiishani@gmail.com" class="contactButton"
+          >GET IN TOUCH!</a
+        >
+      </div>
+    </div>
+
+    <div id="Portfolio" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <h2>PORTFOLIO</h2>
+          </div>
+          <div class="filter">
+            <ul id="filters">
+              <li><a href="#" data-filter="*" class="current">ALL</a></li>
+              <li><a href="#" data-filter=".apps">Apps</a></li>
+              <li><a href="#" data-filter=".me">Me</a></li>
+              <li><a href="#" data-filter=".websites">Websites</a></li>
+            </ul>
+          </div>
+          <div class="itemsContainer">
+            <ul class="items">
+              <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/weatherapp.png" />
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/weatherapp.png"
+                      title="view Image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a screenshot of five day weather forecast"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://github.com/ResmiRamani"
+                      target="blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+              <li
+                onclick=""
+                class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3"
+              >
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/tindog.png" />
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/tindog.png"
+                      title="view Image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a screenshot of  tindog website"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://github.com/ResmiRamani"
+                      target="blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+              <li onclick="" class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/me.jpg" />
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/me.jpg"
+                      title="view Image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a my picture"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a href="" target="blank" class="projectLink">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+              <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img
+                    src="img/portfolio/thumbnails/cyberSecurity-square.jpg"
+                  />
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/cyberSecurity.png"
+                      title="view Image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a screenshot of my cyberSecurity app"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://github.com/ResmiRamani"
+                      target="blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+              <li
+                onclick=""
+                class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3"
+              >
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/school.png" />
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/school.png"
+                      title="view Image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a screenshot of School website"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://github.com/ResmiRamani"
+                      target="blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+
+              <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/I_am_rich.png" />
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/I_am_rich.png"
+                      title="view Image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a screenshot of I_am_rich app"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://github.com/ResmiRamani"
+                      target="blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+              <li
+                onclick=""
+                class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3"
+              >
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/personal.png" />
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/personal.png"
+                      title="view Image"
+                      class="openButton"
+                      data-fancybox
+                      data-caption="This is a screenshot of my personal website"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a
+                      href="https://github.com/ResmiRamani"
+                      target="blank"
+                      class="projectLink"
+                    >
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                  <div class="imageOverlay"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyrightSection">
+      <div class="col-md-12 text-center">
+        <p>&copy;Copyright Resmi 2020</p>
+      </div>
+    </div>
+
+    <script src="js/countUp.js"></script>
+    <script src="js/countUp-jquery.js"></script>
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/isotope-layout@3.0.5/dist/isotope.pkgd.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
