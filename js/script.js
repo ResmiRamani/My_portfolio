@@ -19,7 +19,7 @@ $(document).ready(function () {
     pagination: false,
   });
   var typed = new Typed(".typed", {
-    strings: ["Student.", "WebDeveloper.", "Software Engineer."],
+    strings: ["Mobile Applcations Developer", "WebDeveloper.", "Software Engineer."],
     typeSpeed: 70,
     loop: true,
     startDelay: 1000,
